@@ -1,0 +1,369 @@
+ベータ版利用,言語名,Hello World(基本https://helloworldcollection.github.io/から。その他は備考に記載),解説,"解説してくれた人 id/なまえ
+",文字数
+1,html5,"<!-- Hello world -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Hello World! Site Title</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>",本来ドキュメントタイプの宣言前にコメントを書くのは好ましくない。ハイパーテキスト・マークアップ・ランゲージの略。WEBページを作るのに使われる。,,72
+1,css,"/* Hello World */
+body:before {
+    content: ""Hello World!"";
+}",ブラウザごとに対応が違うため、これを書く人間はIE（インターネットエクスプローラー）へ特別な感情を持っていることも多い。HTMLとあわせて使用される、WEBページの見栄えを指定するための言語。,,96
+1,C#,"//Hello World 
+class HelloWorld
+{
+    static void Main() => System.Console.WriteLine(""Hello World!"");
+}","2002年にマイクロソフトによって作成された、C++やJavaに影響を受けたオブジェクト指向を中心としたマルチパラダイム言語。
+近年はUnity によりゲーム。Xamarin, Monoの登場によりモバイル・macOS・Linux 環境など幅広く活躍を見せている。","@BlueTone
+@fumiya_kume",132
+1,C,"#include <stdio.h>
+
+int main(int argc, char *args[])
+{
+    printf(""Hello World!\n"");
+    return 0;
+}",プログラミング言語界の重鎮。汎用性が高く、対応する機器の範囲が広い。開発時期が古く、機械語の影響が強い。そのため記述が多く「面倒で習得しにくい言語」と言われている。環境によってHello Worldプログラムも方向性が複数ある。1972年にAT&Tベル研究所のデニス・リッチーを主体として開発。,＠kalfes,147
+1,java,"// Hello World 
+
+class HelloWorld {
+  static public void main( String args[] ) {
+    System.out.println( ""Hello World!"" );
+  }
+}",C及びC++から構文を引き継いでいる。組込みシステムから携帯機器、サーバやスパーコンピュータまで多くの機器に利用されており、「30億のデバイスで走るJava」のフレーズは有名。,,88
+1,ruby,"# Hello World
+puts ""Hello World!""",オブジェクト指向スクリプト言語であり、スクリプト言語が用いられてきた領域でのオブジェクト指向プログラミングを実現する。Hello World は非常にシンプル。 また日本で開発されたプログラミング言語では初めて国際電気標準会議で国際規格に認証された。まつもとゆきひろにより開発。,interestor,139
+1,Python3,"# Hello World
+print(""Hello World!"")",イギリスBBCの人気コメディ番組の名前を取って命名されたプログラミング言語。3系と2系ではHelloWorldの書き方が異なる。コード自体はシンプルで扱いやすく設計されており、さまざまなプログラムを分かりやすく、少ないコード行数で書ける。,,119
+,Python2,"# Hello World
+print ""Hello World!""",,,
+1,R,"# Hello World
+cat(""Hello World!\n"")",オープンソースのフリーソフトウェアとその言語で、研究者に利用者が多い。最近ではビックデータの解析などにも利用される。統計解析用に特化しており、解析用の関数やライブラリが数多く用意されている。文字列を表示させる用の関数はprint()とは別に用意されている。,,128
+1,perl,"# Hello World 
+print ""Hello World!\n"";",実用性と多様性を重視しており、C言語やsed、awk、シェルスクリプトなど他のプログラミング言語の優れた機能を取り入れている。ウェブ・アプリケーション、システム管理、など広い範囲で使われるが、特にテキスト処理に強いのが特徴。ラリー・ウォールによって開発された。,,130
+1,visual basic.net,"'Hello World 
+
+Imports System.Console
+
+Class HelloWorld
+
+    Public Shared Sub Main()
+        WriteLine(""Hello World!"")
+    End Sub
+
+End Class
+",C系言語と比べ、文法が自然言語に近いため、プログラミング初心者にも比較的習得しやすい。ボタンなどのパーツをドラッグ＆ドロップで画面に配置して、そのパーツに対して命令を加えることで、簡単にインターフェースをもったアプリケーションを作れる。マイクロソフトが開発。,,129
+1,arduino,"// Hello World 
+
+void setup()
+{
+  Serial.begin(9600);
+  Serial.println(""Hello World!"");
+}
+
+void loop()
+{
+  
+}",組み込み開発用ののハードウェア、実行環境、言語。電気の専門でないアーティストなどでもかんたんに使えるように作られた、C/C++で書かれた言語。このコードはHello Worldを表示するが、電子工作のHello WorldはLチカ（LEDを光らせる）であることが多く、HelloWorldの表示はあまり行わない。,,156
+1,go,"// Hello World 
+package main
+import ""fmt""
+func main() {
+ fmt.Printf(""Hello World!\n"")
+}",2009年リリースと比較的新しい言語の一つで、シンプルな構文や軽量な動作が特徴。マスコットキャラクターはキモかわいいホリネズミ。Googleによって開発された。,,80
+1,Swift,"// Hello World
+print(""Hello World!"")",‪2014年にAppleがアプリ開発用に発表。「モダン、高速、安全、インタラクティブ」を掲げており、なんとあのCより処理速度が早い。マルチパラダイムのコンパイラ言語でありながら、Playgroundやターミナルではインタプリタ言語やスクリプト言語のようにも扱える。最近ではweb開発も盛ん。,kalfes,145
+1,php,"
+#Hello World
+Hello World!",1995年生まれのHTMLプリプロセッサ。Webアプリケーション構築のための豊富な組み込み関数を持つ。テンプレートエンジンとしても使えて、タグの外に書かれたテキストはそのまま出力される。Hello worlは最も短い。「象」がマスコットアニマルであり、最近「梨」より「作曲家」が使われる傾向がある。,KEINOS,149
+1,javascript,"// Hello World
+
+console.log(""Hello World"");",主にブラウザで使われる。過去には実行が重く、flashに押されていたが、chrome「V8」エンジンにより処理速度が向上。WEBに欠かせない技術となっている。近年ではサーバーサイドで実行するための環境も生まれ、より広く使われるようになった。その名前からノンプログラマにJavaと混同されがち。,,146
+,gcode,"%
+O1000
+(PROGRAM NAME - HELLOWORLD)
+(DATE=DD-MM-YY - 30-06-05 TIME=HH:MM - 19:37)
+N10G20
+N20G0G17G40G49G80G90
+/N30G91G28Z0.
+/N40G28X0.Y0.
+/N50G92X0.Y0.Z0.
+( 1/16 FLAT ENDMILL TOOL - 1 DIA. OFF. - 1 LEN. - 1 DIA. - .0625)
+(CONTOUR)
+N60T1M6
+N70G0G90X0.Y1.A0.S5000M3
+N80G43H1Z.5
+N90Z.25
+N100G1Z-.005F2.
+N110Y0.F20.
+N120G0Z.5
+N130X.5
+N140Z.25
+N150G1Z-.005F2.
+N160Y1.F20.
+N170G0Z.5
+N180Y.6106
+N190Z.25
+N200G1Z-.005F2.
+N210X0.F20.
+N220G0Z.5
+N230X.6157Y.4712
+N240Z.25
+N250G1Z-.005F2.
+N260X.6039Y.4135F20.
+N270X.6Y.351
+N280X1.1
+N290G3X1.0098Y.6202R.4333
+N300X.8941Y.6971R.2625
+N310X.7255Y.6538R.1837
+N320X.6157Y.4712R.332
+N330G0Z.5
+N340X.6Y.351
+N350Z.25
+N360G1Z-.005F2.
+N370X.6039Y.2885F20.
+N380G3X.7255Y.0481R.385
+N390X.9745R.1853
+N400X1.0843Y.2308R.332
+N410G0Z.5
+N420X1.2039Y0.
+N430Z.25
+N440G1Z-.005F2.
+N450Y1.F20.
+N460G0Z.5
+N470X1.3098
+N480Z.25
+N490G1Z-.005F2.
+N500Y0.F20.
+N510G0Z.5
+N520X1.4706Y.125
+N530Z.25
+N540G1Z-.005F2.
+N550X1.502Y.0817F20.
+N560G3X1.6176Y.0048R.2625
+N570X1.7863Y.0481R.1837
+N580X1.9118Y.351R.3957
+N590X1.8216Y.6202R.4333
+N600X1.7059Y.6971R.2625
+N610X1.5373Y.6538R.1837
+N620X1.4157Y.4135R.358
+N630X1.4706Y.125R.4611
+N640G0Z.5
+N650X1.9853Y0.
+N660Z.25
+N670G1Z-.005F2.
+N680X2.0422Y.1442F20.
+N690G0Z.5
+N700X2.5706Y1.
+N710Z.25
+N720G1Z-.005F2.
+N730X2.6961Y0.F20.
+N740X2.8216Y1.
+N750X2.9451Y0.
+N760X3.0706Y1.
+N770G0Z.5
+N780X3.2961Y.6538
+N790Z.25
+N800G1Z-.005F2.
+N810X3.2608Y.6202F20.
+N820G3X3.1745Y.2885R.4408
+N830X3.2961Y.0481R.385
+N840X3.5451R.1853
+N850X3.6706Y.351R.3957
+N860X3.5804Y.6202R.4333
+N870X3.4647Y.6971R.2625
+N880X3.2961Y.6538R.1837
+N890G0Z.5
+N900X3.7461Y.7019
+N910Z.25
+N920G1Z-.005F2.
+N930Y0.F20.
+N940G0Z.5
+N950Y.3654
+N960Z.25
+N970G1Z-.005F2.
+N980X3.7637Y.4663F20.
+N990G2X3.8422Y.6587R.4948
+N1000X3.9167Y.7019R.0929
+N1010G1X4.0755
+N1020G2X4.15Y.6587R.0929
+N1030X4.1951Y.5769R.246
+N1040G0Z.5
+N1050X4.3255Y1.
+N1060Z.25
+N1070G1Z-.005F2.
+N1080Y0.F20.
+N1090G0Z.5
+N1100X4.9275
+N1110Z.25
+N1120G1Z-.005F2.
+N1130Y1.F20.
+N1140G0Z.5
+N1150X5.0314
+N1160Z.25
+N1170G1Z-.005F2.
+N1180Y.2981F20.
+N1190G0Z.5
+N1200X4.9275Y.274
+N1210Z.25
+N1220G1Z-.005F2.
+N1230X4.8941Y.1731F20.
+N1240G2X4.7627Y.0192R.3255
+N1250X4.5529Y.0481R.1862
+N1260X4.4314Y.2885R.358
+N1270X4.5176Y.6202R.4408
+N1280X4.6333Y.6971R.2625
+N1290X4.802Y.6538R.1837
+N1300X4.8941Y.5288R.3457
+N1310G1X4.9275Y.4279
+N1320G0Z.5
+N1330X5.0314Y.149
+N1340Z.25
+N1350G1Z-.005F2.
+N1360Y0.F20.
+N1370G0Z.5
+N1380M5
+N1390G91G28Z0.
+N1400G28X0.Y0.A0.
+N1410M30
+%
+",３Dプリンターのヘッドの動きを制御されるために使われる。NC加工で使われたC-CODEを拡張して作られらた。移動、休止といった命令と、座標などのパラメータからなる単純な形式。画像のような出力が得られる。とにかく長い。,,108
+,,,,,0
+,mySQL,"# Hello World 
+
+SELECT 'Hello World';",オープンソースのリレーショナルデータベース管理システム。,,28
+,HSP,"; Hello World
+title ""はじめてのHSP""
+mes ""Hello, HSP World!""
+stop", おにたま氏が開発したフリーウェア。構文はBASIC の書式に基いている。『子供でも理解し易いプログラム言語』を掲げており、カルタの作者が子供の頃初めてであったプログラミング言語がHSP。,,94
+1,なでしこ,"# Hello World
+「Hello World!!」と表示。",クジラ飛行机（ヒコウヅクエ）氏が開発した日本語でプログラムを書けるフリーソフト。『誰でも簡単に』を掲げ、プログラミング入門用として、また日々の定型処理に使える手軽な道具として、幅広く活用出来る。同作者の「ひまわり」の改良バージョン。,,116
+1,emojcode,"👴 Hello World
+
+🐇 🐼 🍇
+  🐇🐖 🏁 ➡️ 🚂 🍇
+    😀 🔤Hello World!🔤
+    🍎 0
+  🍉
+🍉",型、メソッド、クラスメソッド、初期化子がすべて絵文字。コメントは「老人」の絵文字。複数行の場合は「老婆」。,,53
+,アセンブリ言語,"; hello.asm
+[BITS 16]           ; リアルモード
+[ORG 0x7C00]        ; 開始位置
+
+start:
+mov   si, msg       ; msg の先頭位置を SI レジスタに設定する。
+call  print_string
+
+fin:
+hlt
+jmp   fin
+
+print_char:
+mov   ah, 0x0E      ; BIOSに一文字表示を伝える
+mov   bh, 0x00
+mov   bl, 0x07      ; 文字色（白）
+
+int   0x10          ; BIOSの機能を呼び出す。Call video interrupt.
+ret
+
+print_string:
+next:
+mov   al, [si]      ; 文字列から一文字を取得し AL レジスタに設定する
+inc   si            ; SI レジスタをインクリメントする
+or    al, al
+jz    exit
+call  print_char
+jmp   next
+exit:
+ret
+
+msg   db 'Hello World!', 0
+
+times 510 - ($ - $$) db 0 ; ブートシグニチャまで0埋めする
+dw 0xaa55                 ; ブートシグニチャ",,,0
+1,Scratch, ,子供や初心者のためのプログラミング言語。遊び心のある実験やインタラクティブアニメーション、ゲームなどの製作を通してさらなる学習のやる気を起こさせることを意図している。ブロックをドラッグアンドドロップすることで、プログラムを作る。MITが開発。,interestor,121
+,VBA," ' Hello World 
+Private Sub Workbook_Open()
+    MsgBox ""Hello World!""
+End Sub",Excel、Access、Word、PowerPointなど、Officeのアプリケーション・ソフトウェアの機能をカスタマイズしたり、拡張したりできる。ノンプログラマでも使っている人が多い言語の一つ。,,100
+,Turing Machine,"Hello World 
+
+State   Read   |   Write     Step    Next state
+---------------|---------------------------------
+1       empty  |   H         >       2
+2       empty  |   e         >       3
+3       empty  |   l         >       4
+4       empty  |   l         >       5
+5       empty  |   o         >       6
+6       empty  |   blank     >       7
+7       empty  |   W         >       8
+8       empty  |   o         >       9
+9       empty  |   r         >       10
+10      empty  |   l         >       11
+11      empty  |   d         >       12
+12      empty  |   !         >       STOP",計算模型のひとつで、計算機を数学的に議論するための単純化・理想化された仮想機械。1936年にイギリスの数学者アラン・チューリングが発表した。ある計算モデルが、仮想の万能チューリングマシンと同じ計算能力を持つ時、それを「チューリング完全」という。チューリング完全はプログラミング言語の条件の一つである。,,150
+1,"Japanese		
+",こんにちは、 世界！,日本のエンジニアに最も使われている言語であるものの、国内以外では余り通用しない。世界に最初に紹介したのはイタリアのマルコ氏と言われる。他の言語と比べ多様なタイプの文字コードを扱うのも特徴。,,94
+,C(Cosθ),"for (int i=0;i<10;i++)
+{
+ double t = 0.6283*i;
+ putchar(77+7*cos(t+3)+cos(t*2+4.6)+cos(t*3+4)+3.4*cos(t*4+0.3));
+}",4つのコサイン波を重ねることでそれを表現。出力は、HELLOWORLD。,たいにゃん,36
+,Kotlin,"// Hello World in Kotlin
+
+fun main(args : Array<String>) {
+    println(""Hello World!"")
+}
+",,,0
+,Delphi,"begin
+    Writeln('Hello World!');
+end.",,,0
+,Rust,"fn main() {
+    println!(""Hello World!"");
+}",システムプログラミング言語。型推論やパターンマッチなどの言語機能を備え、メモリ安全性の保証された高速なプログラムを作ることが出来る。プログラマーはしばしば「借用チェッカー」との闘いに時間を費やすことになる。,ubnt-intrepid,103
+,Brainfuck,">+++++++++[<++++++++>-]<.>+++++++[<++++>-]<+.+++++++..+++.[-]>++++++++[<++
+++>-]<.>+++++++++++[<+++++>-]<.>++++++++[<+++>-]<.+++.------.--------.[-]>
+++++++++[<++++>-]<+.[-]++++++++++.",,,0
+,MSDOS,"@ECHO OFF
+REM Hello World for DOS batch
+
+ECHO Hello World!","Windowsのコマンドプロンプトで実行できる。
+",,25
+,F#,"printf ""Hello World!""",Microsoftが作った関数型言語。.NET Frameworkとの親和性が高い。,,42
+,Lua,"print(""Hello World!"")",ゲーム内でのスクリプト言語として利用され、C言語に組み込まれることを想定されている。,,42
+,Scheme (Gauche),"(define (main args) (print ""Hello World""))",,,0
+,Haskell,"main = putStrLn ""Hello World!""",,,0
+,Erlang,"hello_world() -> io:fwrite(""Hello World!"").",,,0
+,Scheme (R7RS),"(import (scheme base) (scheme write))
+
+(display ""Hello World!"")
+(newline)",,,0
+,OCaml,"let () = print_endline ""Hello World!""",,,0
+,sh,echo Hello World!,,,0
+,C++,"#include<iostream>
+using namespace std;
+int main()
+{
+        cout << ""Hello World!"" << endl; //comment
+        system(""pause"");
+        return 0;
+}",,@kivo_ssbm,0
+,Julia,"# Hello World!
+println(""Hello World!"")","数値計算を目的として作られた動的プログラミング言語の一つで高水準言語かつ仕様記述言語．
+CやPythonの関数の呼び出しを標準でサポートしている．MITで開発されている．",@Chun_Chun_Japan,85
+,Nim,"echo ""Hello World!""",,,0
+1,COBOL,"       * Hello World
+*****************************
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO.
+ENVIRONMENT DIVISION.
+DATA DIVISION.
+PROCEDURE DIVISION.
+MAIN SECTION.
+DISPLAY ""Hello World!""
+STOP RUN.
+****************************",グレース・ホッパー女史が開発した「FLOW-MATIC」がベース。言語名は「共通事務処理用言語」の頭文字からとられた。金額計算などの事務処理で特によく利用される。パンチカードの頃のなごりか、慣例として英字は大文字。「死んだ言語」と評されることもあったが、今でも銀行システムなどで生き残っている。,,147
