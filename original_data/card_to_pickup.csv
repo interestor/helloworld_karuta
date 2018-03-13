@@ -1,6 +1,6 @@
 ベータ版利用,言語名,Hello World(基本https://helloworldcollection.github.io/から。その他は備考に記載),解説,"解説してくれた人 id/なまえ
 ",文字数
-1,html5,"<!-- Hello world -->
+1,HTML5,"<!-- Hello world -->
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -10,7 +10,7 @@
     <h1>Hello World!</h1>
   </body>
 </html>",本来ドキュメントタイプの宣言前にコメントを書くのは好ましくない。ハイパーテキスト・マークアップ・ランゲージの略。WEBページを作るのに使われる。,,72
-1,css,"/* Hello World */
+1,CSS,"/* Hello World */
 body:before {
     content: ""Hello World!"";
 }",ブラウザごとに対応が違うため、これを書く人間はIE（インターネットエクスプローラー）へ特別な感情を持っていることも多い。HTMLとあわせて使用される、WEBページの見栄えを指定するための言語。,,96
@@ -28,14 +28,14 @@ int main(int argc, char *args[])
     printf(""Hello World!\n"");
     return 0;
 }",プログラミング言語界の重鎮。汎用性が高く、対応する機器の範囲が広い。開発時期が古く、機械語の影響が強い。そのため記述が多く「面倒で習得しにくい言語」と言われている。環境によってHello Worldプログラムも方向性が複数ある。1972年にAT&Tベル研究所のデニス・リッチーを主体として開発。,＠kalfes,147
-1,java,"// Hello World 
+1,Java,"// Hello World 
 
 class HelloWorld {
   static public void main( String args[] ) {
     System.out.println( ""Hello World!"" );
   }
 }",C及びC++から構文を引き継いでいる。組込みシステムから携帯機器、サーバやスパーコンピュータまで多くの機器に利用されており、「30億のデバイスで走るJava」のフレーズは有名。,,88
-1,ruby,"# Hello World
+1,Ruby,"# Hello World
 puts ""Hello World!""",オブジェクト指向スクリプト言語であり、スクリプト言語が用いられてきた領域でのオブジェクト指向プログラミングを実現する。Hello World は非常にシンプル。 また日本で開発されたプログラミング言語では初めて国際電気標準会議で国際規格に認証された。まつもとゆきひろにより開発。,interestor,139
 1,Python3,"# Hello World
 print(""Hello World!"")",イギリスBBCの人気コメディ番組の名前を取って命名されたプログラミング言語。3系と2系ではHelloWorldの書き方が異なる。コード自体はシンプルで扱いやすく設計されており、さまざまなプログラムを分かりやすく、少ないコード行数で書ける。,,119
@@ -43,9 +43,9 @@ print(""Hello World!"")",イギリスBBCの人気コメディ番組の名前を�
 print ""Hello World!""",,,
 1,R,"# Hello World
 cat(""Hello World!\n"")",オープンソースのフリーソフトウェアとその言語で、研究者に利用者が多い。最近ではビックデータの解析などにも利用される。統計解析用に特化しており、解析用の関数やライブラリが数多く用意されている。文字列を表示させる用の関数はprint()とは別に用意されている。,,128
-1,perl,"# Hello World 
+1,Perl,"# Hello World 
 print ""Hello World!\n"";",実用性と多様性を重視しており、C言語やsed、awk、シェルスクリプトなど他のプログラミング言語の優れた機能を取り入れている。ウェブ・アプリケーション、システム管理、など広い範囲で使われるが、特にテキスト処理に強いのが特徴。ラリー・ウォールによって開発された。,,130
-1,visual basic.net,"'Hello World 
+1,Visual Basic .NET,"'Hello World 
 
 Imports System.Console
 
@@ -69,7 +69,7 @@ void loop()
 {
   
 }",組み込み開発用ののハードウェア、実行環境、言語。電気の専門でないアーティストなどでもかんたんに使えるように作られた、C/C++で書かれた言語。このコードはHello Worldを表示するが、電子工作のHello WorldはLチカ（LEDを光らせる）であることが多く、HelloWorldの表示はあまり行わない。,,156
-1,go,"// Hello World 
+1,Go,"// Hello World 
 package main
 import ""fmt""
 func main() {
@@ -77,10 +77,10 @@ func main() {
 }",2009年リリースと比較的新しい言語の一つで、シンプルな構文や軽量な動作が特徴。マスコットキャラクターはキモかわいいホリネズミ。Googleによって開発された。,,80
 1,Swift,"// Hello World
 print(""Hello World!"")",‪2014年にAppleがアプリ開発用に発表。「モダン、高速、安全、インタラクティブ」を掲げており、なんとあのCより処理速度が早い。マルチパラダイムのコンパイラ言語でありながら、Playgroundやターミナルではインタプリタ言語やスクリプト言語のようにも扱える。最近ではweb開発も盛ん。,kalfes,145
-1,php,"
+1,PHP,"
 #Hello World
 Hello World!",1995年生まれのHTMLプリプロセッサ。Webアプリケーション構築のための豊富な組み込み関数を持つ。テンプレートエンジンとしても使えて、タグの外に書かれたテキストはそのまま出力される。Hello worlは最も短い。「象」がマスコットアニマルであり、最近「梨」より「作曲家」が使われる傾向がある。,KEINOS,149
-1,javascript,"// Hello World
+1,JavaScript,"// Hello World
 
 console.log(""Hello World"");",主にブラウザで使われる。過去には実行が重く、flashに押されていたが、chrome「V8」エンジンにより処理速度が向上。WEBに欠かせない技術となっている。近年ではサーバーサイドで実行するための環境も生まれ、より広く使われるようになった。その名前からノンプログラマにJavaと混同されがち。,,146
 ,gcode,"%
@@ -242,7 +242,7 @@ mes ""Hello, HSP World!""
 stop", おにたま氏が開発したフリーウェア。構文はBASIC の書式に基いている。『子供でも理解し易いプログラム言語』を掲げており、カルタの作者が子供の頃初めてであったプログラミング言語がHSP。,,94
 1,なでしこ,"# Hello World
 「Hello World!!」と表示。",クジラ飛行机（ヒコウヅクエ）氏が開発した日本語でプログラムを書けるフリーソフト。『誰でも簡単に』を掲げ、プログラミング入門用として、また日々の定型処理に使える手軽な道具として、幅広く活用出来る。同作者の「ひまわり」の改良バージョン。,,116
-1,emojcode,"👴 Hello World
+1,Emojicode,"👴 Hello World
 
 🐇 🐼 🍇
   🐇🐖 🏁 ➡️ 🚂 🍇
