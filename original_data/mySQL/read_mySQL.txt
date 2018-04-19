@@ -1,0 +1,1 @@
+Linux, Microsoft Windows, FreeBSD, Sun Solaris, IBM's AIX, Mac OS X、その他様々なプラットフォームで利用できる。また、オープンソースで、非商用であれば無償。世界で最も利用されている、リレーショナルデータベース管理システムである。

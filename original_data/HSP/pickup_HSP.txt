@@ -1,0 +1,4 @@
+; Hello World
+title "はじめてのHSP"
+mes "Hello, HSP World!"
+stop
