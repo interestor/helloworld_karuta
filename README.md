@@ -7,21 +7,21 @@ HP：http://helloworldkaruta.strikingly.com
 正直github自体あまり使ったことがないので、適切にまわせないかもしれません。
 データの置き方、リクエストの仕方などについても「こうしたほうがいいよ」とうコメントいただければなおしていきたいと思います。
 
-#書くときのポイント
-##コード
+# 書くときのポイント
+## コード
 - pickup_hoge.hogeというファイル名
 - はじめにコメント(Hello World)を入れる
 - Hello World!を出力するコード
 
-##読み札解説
+## 読み札解説
 - read_hoge.hogeというファイル名
 - 〜150字
 - 開発者など決定的にわかってしまう要素は後ろ目に入れる方が好ましい
 - 言語のタイプ、特徴、開発経緯、あるあるなど
 
-#言語のリスト
+# 言語のリスト
 
-##ベータ版収録
+## ベータ版収録
 - Japanese
 - なでしこ
 - Javascript
@@ -43,7 +43,7 @@ HP：http://helloworldkaruta.strikingly.com
 - Python3
 - Java
 
-##ベータ版追加パック収録
+## ベータ版追加パック収録
 - mySQL
 - Turing Machine
 - Kotlin
@@ -55,7 +55,7 @@ HP：http://helloworldkaruta.strikingly.com
 - Julia
 - TypeScript
 
-##整備中・リクエスト済み
+## 整備中・リクエスト済み
 
 - Brainfuck（解説なし）
 - Cosθ
