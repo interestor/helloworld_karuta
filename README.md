@@ -37,8 +37,8 @@ HP：http://helloworldkaruta.strikingly.com
 - C
 - CSS
 - HTML5
-- Visual basic.net
-- C#
+- Visual Basic (.NET)
+- C# (.NET)
 - Scratch
 - Python3
 - Java
