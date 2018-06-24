@@ -1,3 +1,4 @@
+#Hello World!
 .global main
 main:
 movl $4, %eax
@@ -11,5 +12,5 @@ movl $0, %ebx
 int $0x80
 
 .data
-msg: .asciz "Hello,world!\n"
+msg: .asciz "Hello World!"
 
